@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>2D Universe Sandbox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>2D Universe Sandbox</h1>
+  <div id="controls">
+    <button id="pauseBtn">Pause</button>
+    <label>
+      Gravity: <input type="range" id="gravitySlider" min="0.01" max="0.5" step="0.01" value="0.12">
+      <span id="gravityValue">0.12</span>
+    </label>
+    <label>
+      Mass: <input type="range" id="massSlider" min="10" max="100" step="1" value="30">
+      <span id="massValue">30</span>
+    </label>
+    <span>Click to add a planet</span>
+  </div>
+  <canvas id="universe" width="900" height="600"></canvas>
+  <script src="main.js"></script>
+</body>
+</html>
