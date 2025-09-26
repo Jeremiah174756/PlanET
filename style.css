@@ -1,0 +1,41 @@
+body {
+  background: #111;
+  color: #eee;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+#controls {
+  margin-bottom: 10px;
+}
+canvas {
+  background: #000;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #333;
+}
+button {
+  margin-right: 10px;
+  padding: 6px 18px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  background: #444;
+  color: #eee;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #666;
+}
+label {
+  margin: 0 10px;
+  font-size: 1rem;
+}
+input[type="range"] {
+  vertical-align: middle;
+}
+#gravityValue, #massValue {
+  display: inline-block;
+  min-width: 36px;
+  text-align: left;
+}
